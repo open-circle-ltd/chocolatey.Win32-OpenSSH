@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win32-openssh</id>
+    <title>Win32-OpenSSH</title>
+    <version>9.5.0.0p1</version>
+    <authors>Microsoft</authors>
+    <owners>Open Circle AG</owners>
+    <packageSourceUrl>https://github.com/PowerShell/Win32-OpenSSH/</packageSourceUrl>
+    <projectUrl>https://github.com/PowerShell/Win32-OpenSSH/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.microsoft-office-deployment@master/icon/microsoft-office-deployment.png</iconUrl>
+    <copyright>2024 Microsoft</copyright>
+    <licenseUrl>https://github.com/PowerShell/openssh-portable?tab=License-1-ov-file#readme</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://github.com/PowerShell/Win32-OpenSSH/wiki</docsUrl>
+    <tags>win32 openssh</tags>
+    <summary>Microsoft Office Deployment Tool</summary>
+    <description>Installs Microsoft Office Products.
+
+## Installation
+
+### choco
+
+Installation without parameters.
+
+```ps1
+ choco install win32-openssh
+```
+
+</description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
+</package>

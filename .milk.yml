@@ -37,7 +37,7 @@ deploy:
   - provider: github
     name: "OpenCircle-Choco-Bot"
     email: "chocomilk@open-circle.ch"
-    url: github.com/open-circle-ltd/win32-openssh.git
+    url: github.com/open-circle-ltd/chocolatey.Win32-OpenSSH.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
 
 # Notification

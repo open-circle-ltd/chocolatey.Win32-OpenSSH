@@ -9,8 +9,8 @@ changelog_format: json
 version: "{{ register_changelog.json['latest_version'] }}"
 
 # Download URL
-url: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}/OpenSSH-Win32-v{{ version }}.msi'
-url64: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}/OpenSSH-Win64-v{{ version }}.msi'
+url: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}/OpenSSH-Win32-v{{ version[0:6] }}.msi'
+url64: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}/OpenSSH-Win64-v{{ version[0:6] }}.msi'
 
 searchreplace:
   "tools/chocolateyinstall.ps1":

@@ -49,3 +49,5 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+
+Install-ChocolateyPath "${Env:ProgramFiles}\OpenSSH" -PathType 'Machine'

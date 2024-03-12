@@ -1,7 +1,5 @@
 # Chocolatey Package: Win32-OpenSSH
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) [![Chocolatey](https://img.shields.io/chocolatey/v/microsoft-office-deployment?label=package%20version)](https://chocolatey.org/packages/microsoft-office-deployment) [![Chocolatey](https://img.shields.io/chocolatey/dt/microsoft-office-deployment?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/microsoft-office-deployment)
-
 ## Description
 
 Installs Win32-OpenSSH.
@@ -27,9 +25,6 @@ Installation with parameters.
 ```ps1
  choco install win32-openssh --params="'/server'"
 ```
-
-## ToDo
-
 
 ## Disclaimer
 

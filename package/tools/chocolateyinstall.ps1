@@ -4,10 +4,10 @@ $ErrorActionPreference = 'Stop';
 $PackageParameters = Get-PackageParameters
 
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$urlPackage = 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win32-v9.4.0.0.msi'
-$urlPackage64 = 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win64-v9.4.0.0.msi'
-$checksumPackage = '09bb63fe0005ac98826787a1b1b408d8f29c5d118df6c4a8382c79c269caac340d8ef70c2f9e47f58dd4e2c08a6365ad9a1601af588beddda55c3d83976a235e'
-$checksumPackage64 = ''
+$urlPackage = 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win32-v9.5.0.0.msi'
+$urlPackage64 = 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win64-v9.5.0.0.msi'
+$checksumPackage = '8537f2b1133678713aac39c0a97a1c61846356ed1a2ea77c3d2954213c6f1c3b144a2e1d09587995a0ca11a094cc6d6ae459f34aeaaa008a7be1d9e54bdb2163'
+$checksumPackage64 = '8537f2b1133678713aac39c0a97a1c61846356ed1a2ea77c3d2954213c6f1c3b144a2e1d09587995a0ca11a094cc6d6ae459f34aeaaa008a7be1d9e54bdb2163'
 $checksumTypePackage = 'SHA512'
 
 $args = ""

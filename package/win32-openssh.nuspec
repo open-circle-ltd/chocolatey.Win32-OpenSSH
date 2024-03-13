@@ -3,7 +3,7 @@
   <metadata>
     <id>win32-openssh</id>
     <title>Win32-OpenSSH</title>
-    <version>9.4.0.0p1</version>
+    <version>9.5.0.0</version>
     <authors>Microsoft</authors>
     <owners>Open Circle AG</owners>
     <packageSourceUrl>https://github.com/PowerShell/Win32-OpenSSH/</packageSourceUrl>
@@ -15,15 +15,15 @@
     <docsUrl>https://github.com/PowerShell/Win32-OpenSSH/wiki</docsUrl>
     <tags>win32 openssh</tags>
     <summary>Win32 OpenSSH</summary>
-    <description>Installs Microsoft Win32-OpenSSH
-
-## Installation
+    <description>Installs Win32-OpenSSH.
 
 ## Package Parameters
 
 - `/server` to install only SSH Server
 - `/client` to install only the SSH Client
 - When no parameters are supplied, both client and server will be installed
+
+## Installation
 
 ### choco
 
@@ -38,7 +38,6 @@ Installation with parameters.
 ```ps1
  choco install win32-openssh --params="'/server'"
 ```
-
 </description>
   </metadata>
   <files>

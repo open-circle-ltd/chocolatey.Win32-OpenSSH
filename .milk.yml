@@ -42,7 +42,7 @@ deploy:
 
   - provider: chocolatey
     repository: "https://packages.ocrcl.ch/"
-    key: "{{ lookup('env', 'CHOCOWALL_PROD_API_KEY') }}"
+    key: "{{ lookup('env','CHOCOWALL_PROD_API_KEY') }}"
 
 # Notification
 notifications:

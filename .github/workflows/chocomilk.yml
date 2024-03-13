@@ -21,4 +21,5 @@ jobs:
           CHOCOLATEY_ORG_API_KEY: ${{ secrets.CHOCOLATEY_ORG_API_KEY }}
           MATTERMOST_API_KEY: ${{ secrets.MATTERMOST_API_KEY }}
           GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          CHOCOWALL_PROD_API_KEY: ${{ secrets.CHOCOWALL_PROD_API_KEY }}
           PWD: ${{ github.workspace }}

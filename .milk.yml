@@ -21,7 +21,7 @@ searchreplace:
     - regwxp: (^\s*[$]*checksumPackage\s*=\s*)('.*')
       replace: "$checksumPackage = '{{ file_hash }}'"
     - regwxp: (^\s*[$]*checksumPackage64\s*=\s*)('.*')
-      replace: "$checksumPackage64 = '{{ file_hash }}'"
+      replace: "$checksumPackage64 = '{{ file64_hash }}'"
 
 # readme to description
 readme:

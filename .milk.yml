@@ -40,7 +40,7 @@ deploy:
     url: github.com/open-circle-ltd/chocolatey.Win32-OpenSSH.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
 
-  - provider: chocowall
+  - provider: chocolatey
     repository: "https://packages.ocrcl.ch/"
     key: "{{ lookup('env', 'CHOCOWALL_PROD_API_KEY') }}"
 

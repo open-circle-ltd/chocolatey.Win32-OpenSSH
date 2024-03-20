@@ -8,11 +8,11 @@ changelog_format: json
 # Regex for Version
 #version: "{{ register_changelog.json['latest_version'][0:7] }}"
 #release monitoring is not listing the versions correctly, as workaround the version is hardcoded
-version: "9.5.0.0"
+version: "9.5.0"
 
 # Download URL
-url: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}p1-Beta/OpenSSH-Win32-v{{ version }}.msi'
-url64: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}p1-Beta/OpenSSH-Win64-v{{ version }}.msi'
+url: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}.0p1-Beta/OpenSSH-Win32-v{{ version }}.msi'
+url64: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}.0p1-Beta/OpenSSH-Win64-v{{ version }}.msi'
 
 searchreplace:
   "tools/chocolateyinstall.ps1":

@@ -6,7 +6,9 @@ changelog: "https://release-monitoring.org/api/v2/versions/?project_id=371767"
 changelog_format: json
 
 # Regex for Version
-version: "{{ register_changelog.json['latest_version'][0:7] }}"
+#version: "{{ register_changelog.json['latest_version'][0:7] }}"
+#release monitoring is not listing the versions correctly, as workaround the version is hardcoded
+version: "9.5.0.0"
 
 # Download URL
 url: 'https://github.com/PowerShell/Win32-OpenSSH/releases/download/v{{ version }}p1-Beta/OpenSSH-Win32-v{{ version }}.msi'

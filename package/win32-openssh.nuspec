@@ -3,7 +3,7 @@
   <metadata>
     <id>win32-openssh</id>
     <title>Win32-OpenSSH</title>
-    <version>9.4.0</version>
+    <version>9.5.0</version>
     <authors>Microsoft</authors>
     <owners>Open Circle AG</owners>
     <packageSourceUrl>https://github.com/PowerShell/Win32-OpenSSH/</packageSourceUrl>

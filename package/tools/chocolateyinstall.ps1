@@ -31,7 +31,6 @@ else {
     Write-Host "Installing SSH Server and Client"
 }
 
-Import-Module -Name "$($toolsDir)\helpers.ps1"
 
 $packageArgs = @{
     packageName    = 'Win32-OpenSSH'
